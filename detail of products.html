@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Product Detail</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 20px;
+
+            }
+            .table-title {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            table{
+                width: 80%;
+                margin: 0 auto;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 12px;
+
+            }
+            th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+
+            }
+            .original-price {
+                text-decoration: line-through;
+                color: red;
+                margin-right: 5px;
+
+            }
+            .discount-price {
+                font-weight: bold;
+                color: green;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="table-title">The detail of Products</div>
+        <!--Table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Product</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Row1-->
+                <tr>
+                    <td>0001</td>
+                    <td><img src="asus.jpg" alt="Asus Laptop" width="200px"></td>
+                    <td><span class="original-price">$2200</span> <span class="discount-price">$1200</span></td>
+                    <td>Asus(China)</td>
+                </tr>
+                <!--Row2-->
+                <tr>
+                    <td>0002</td>
+                    <td><img src="hp.jpg" alt="Hp Laptop" width="200px"></td>
+                    <td><span class="original-price">$2200</span> <span class="discount-price">$1250</span></td>
+                    <td>HP(US)</td>
+                </tr>
+                <!--Row3-->
+                <tr>
+                    <td>0003</td>
+                    <td><img src="NEC.jpg"alt="NEC Laptop" width="200px"></td>
+                    <td><span class="original-price">$2200</span> <span class="discount-price">$1300</span></td>
+                    <td>NEC(Japan)</td>
+                </tr>
+                <!--Row4-->
+                <tr>
+                    <td>0004</td>
+                    <td><img src="Dell.jpg"alt="Dell Laptop" width="200px"></td>
+                    <td><span class="original-price">$2200</span> <span class="discount-price">$1100</span></td>
+                    <td>Dell(Burma)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
